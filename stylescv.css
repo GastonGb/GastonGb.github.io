@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section 
+{
+
+    height: 400px;
+
+}
+
+section#datos
+ {
+    background-color:lightseagreen ;
+    display:flex ; 
+    flex-direction: column  ;  
+    justify-content: center;
+    align-items: center;
+}
+section#datos h1 {
+
+    font-size: 4rem;
+}
+section#datos h2 {
+
+    font-size: 2rem;
+  
+
+ 
+}
+
+
+.Experiencia-lista{
+   
+    display:flex ; 
+      
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-esperiencia{
+    border: 5px solid lightseagreen;
+    width: 300px ;
+    margin: 10px;
+
+}
+
+
+
+.detalle-esperiencia img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aquamarine;
+}
+nav ul{
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: hsl(179, 94%, 50%);
+}
+
+
+
+
