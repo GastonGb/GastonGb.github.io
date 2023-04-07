@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section 
+{
+
+    height: 250px;
+
+}
+
+section#datos 
+ {
+    background-color:hsl(177, 19%, 59%) ;
+    display:flex ; 
+    flex-direction: column  ;  
+    justify-content:center;
+    align-items:center;
+}
+section#datos h1 {
+
+    font-size: 3rem;
+
+
+    
+}
+
+section#datos p {
+
+    font-size: 2rem;
+  
+
+ 
+}
+
+
+.Experiencia-lista{
+   
+    display:flex ; 
+      
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-experiencia{
+    border: 5px solid gray ;
+    width: 300px ;
+    margin: 10px;
+
+}
+
+
+
+.detalle-experiencia img{
+    width: 100%;
+}
+.detalle-estudios{
+    border: 5px solid #527170;
+    width: 300px ;
+    margin: 10px;
+
+}
+
+
+
+.detalle-estudios img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #526760;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+} 
+
+nav ul li form  {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    background-color: hsl(179, 94%, 50%);
+}
+
+
+
+
